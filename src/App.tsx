@@ -1,5 +1,11 @@
+import Myroute from "./app/myRoute";
+
 function App() {
-  return <div>App</div>;
+  return (
+    <div>
+      <Myroute />
+    </div>
+  );
 }
 
 export default App;
