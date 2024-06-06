@@ -1,0 +1,23 @@
+.event-block {
+  background: linear-gradient(
+    147.89deg,
+    rgb(72, 198, 239) -31.07%,
+    rgb(111, 134, 214) 128.49%
+  );
+  padding: 10px 20px;
+
+  color: #fff;
+  font-size: 20px;
+}
+.event-logo-text {
+  color: rgb(209, 199, 199);
+  margin-top: 50px;
+}
+.event-text3 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.event-text2 {
+  margin-top: 100px;
+}

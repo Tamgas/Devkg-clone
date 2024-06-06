@@ -1,0 +1,36 @@
+.event-block {
+  background: linear-gradient(
+    147.89deg,
+    rgb(72, 198, 239) -31.07%,
+    rgb(111, 134, 214) 128.49%
+  );
+  padding: 10px 20px;
+
+  color: #fff;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+}
+.event-block2 {
+  padding: 10px 20px;
+  background: url(../image/Untitled.png) center / cover;
+  color: #fff;
+  font-size: 20px;
+}
+.event-text3 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.event-text2 {
+  margin-top: 100px;
+}
+.event__content {
+  display: grid;
+  gap: 50px;
+}
+.event-block3 {
+  background: #514e4e;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 20px;
+}
