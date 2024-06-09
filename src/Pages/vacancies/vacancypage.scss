@@ -1,0 +1,19 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn__add__vacancy {
+  background: #6fcf97;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 38px;
+  padding: 0 25px;
+  min-width: 145px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}

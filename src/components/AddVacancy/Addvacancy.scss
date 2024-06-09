@@ -1,0 +1,18 @@
+.addVacancy {
+  &__content {
+    &-title {
+      font-size: 24px;
+      letter-spacing: 0.03em;
+      color: #191f5d;
+      margin-bottom: 20px;
+    }
+
+    &-text {
+      font-size: 14px;
+      letter-spacing: 0.03em;
+      color: #191f5d;
+      margin-bottom: 40px;
+      margin-right: 38px;
+    }
+  }
+}

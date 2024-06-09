@@ -6,6 +6,7 @@ import Eventspage from "../Pages/events/Eventspage";
 import Videos from "../Pages/Videos/Videos";
 import OrganizationPage from "../Pages/organizations/OrganizationPage";
 import CommunityPage from "../Pages/community/CommunityPage";
+import AddVacancy from "../components/AddVacancy/AddVacancy";
 
 function Myroute() {
   const router = createBrowserRouter([
@@ -56,6 +57,10 @@ function Myroute() {
           <CommunityPage />,
         </Layout>
       ),
+    },
+    {
+      path: "/Addvacancy",
+      element: <AddVacancy />,
     },
   ]);
   return (

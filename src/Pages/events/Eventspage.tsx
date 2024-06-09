@@ -30,7 +30,6 @@ function Eventspage() {
                 <div className="event__content-info">
                   <h4>8 июня 2024 09:00</h4>
                 </div>
-
                 <div className="event__content__text">
                   <h1>Что такое автоматизация тестирования и с чем её едят?</h1>
                   <div className="event__content-text">
