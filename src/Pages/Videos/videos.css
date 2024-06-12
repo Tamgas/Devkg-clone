@@ -1,0 +1,130 @@
+.video-logo {
+  display: inline-block;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #a7b0c2;
+  font-weight: 700;
+  transition: opacity 0.2s;
+  margin: 24px 0;
+}
+.video__content {
+  display: grid;
+  gap: 20px;
+}
+.video__content__blocks {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  color: #faf2f2;
+  max-width: 100%;
+  height: 100%;
+}
+
+.video__content-block {
+  padding: 30px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  background: url(../../assets/photo1717820970.jpeg) center / cover;
+}
+.video__content-block2 {
+  padding: 30px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  background: url(../../assets/photo1717820963.jpeg) center / cover;
+}
+
+.video__content-block-text {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.video__logo-text {
+  font-size: 24px;
+}
+
+.video-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 16px;
+}
+.video-btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-family: proxima-nova, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  background: #479e5388;
+  color: aliceblue;
+  border: none;
+}
+.video-btns {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.next-btn {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-family: proxima-nova, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background: #479e5388;
+  color: #fff;
+  border: none;
+}
+.next-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 381px) {
+  .next-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  .video__content__blocks {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  .video__logo-text {
+    font-size: 30px;
+  }
+
+  .video-text {
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .video__logo-text {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 18px;
+  }
+}
