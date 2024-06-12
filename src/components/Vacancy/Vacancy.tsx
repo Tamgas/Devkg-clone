@@ -3,9 +3,9 @@ import "./vacancy.scss";
 import vacancyicon from "../../assets/c0814e899a66d41ede3aad818e921946.webp";
 
 function Vacancy() {
-  //   axios
-  //     .get("https://my-json-server.typicode.com/typicode/demo/posts")
-  //     .then((res) => console.log(res.data));
+  // axios
+  //   .get("https://my-json-server.typicode.com/typicode/demo/posts")
+  //   .then((res) => console.log(res.data));
   return (
     <>
       <div className="vacancy">

@@ -4,6 +4,9 @@ function Eventspage() {
     <div className="event">
       <div className="container">
         <div className="event__content">
+          <div className="add-btns">
+            <button className="add-btn">Добавить мероприятие</button>
+          </div>
           <div className="event__content-blocks">
             <div className="event__content-block1">
               <div className="event__content-title">
@@ -67,6 +70,9 @@ function Eventspage() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="next-btns">
+            <button className="next-btn">Следующая страница</button>
           </div>
         </div>
       </div>

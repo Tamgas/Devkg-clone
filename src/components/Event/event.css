@@ -5,9 +5,9 @@
     rgb(111, 134, 214) 128.49%
   );
   padding: 10px 20px;
-
   color: #fff;
   font-size: 20px;
+  text-decoration: none;
 }
 .event__content-logo {
   display: inline-block;
