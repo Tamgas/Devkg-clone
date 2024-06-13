@@ -1,0 +1,63 @@
+.vacancy__content-title {
+  display: inline-block;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #a7b0c2;
+  font-weight: 700;
+  transition: opacity 0.2s;
+  margin: 24px 0 24px 0;
+}
+.vacancy__content__links-link {
+  cursor: pointer;
+  background: #f1f4f9;
+  margin-bottom: 2px;
+  padding: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 25px;
+}
+.vacancy__content__links-link__box {
+  display: flex;
+}
+.vacancy__content__links-link__icon {
+  width: 45px;
+  height: 45px;
+}
+.vacancy__content__links-link__companyname {
+  padding-left: 50px;
+}
+.vacancy__content__links-link__companyname-title {
+  display: block;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #a7b0c2;
+  margin-bottom: 4px;
+}
+.vacancy__content__links-link__companyname-pretitle {
+  color: #191f5d;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
+
+@media (max-width: 840px) {
+  .vacancy__content__links-link__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 840px) {
+  .vacancy__content__links-link__box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 402px) {
+  .vacancy__content__links-link__box {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=vacancy.css.map */
