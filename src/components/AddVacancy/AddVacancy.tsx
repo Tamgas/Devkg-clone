@@ -4,8 +4,14 @@ import SideBarAddVacancy from "../SidebarAddVacancy/SideBarAddVacancy";
 import "./Addvacancy.scss";
 import { useState } from "react";
 function AddVacancy() {
-  const [modal, contextHolder] = Modal.useModal();
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOk = () => {
+    setIsModalOpen(false);
+  };
+  const handleCancel = () => {
+    setIsModalOpen(false);
+  };
   return (
     <>
       <SideBarAddVacancy />
@@ -21,17 +27,31 @@ function AddVacancy() {
             </p>
             <div className="addVacancy__content__info">
               <div className="addVacancy__content__info__organization">
-                <h4 className="addVacancy__content__info__organization">
+                <h4 className="addVacancy__content__info__organization-title">
                   Организация
                 </h4>
                 <button
+                  className="addVacancy__content__info__organization-btn"
                   onClick={() => {
                     setIsModalOpen(true);
                   }}
                 >
-                  Добавить организацию
+                  Содать или Добавить организацию
                 </button>
-                <Modal open={isModalOpen}>{contextHolder}</Modal>
+                <Modal
+                  onOk={handleOk}
+                  onCancel={handleCancel}
+                  open={isModalOpen}
+                ></Modal>
+              </div>
+              <div className="addVacancy__content__info__organization">
+                <h4 className="addVacancy__content__info__organization-title">
+                  Организация
+                </h4>
+                <input
+                  type="text"
+                  className="addVacancy__content__info__jobtitle"
+                />
               </div>
             </div>
           </div>

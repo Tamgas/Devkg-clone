@@ -14,5 +14,48 @@
       margin-bottom: 40px;
       margin-right: 38px;
     }
+
+    &__info {
+      &__organization {
+        &-btn {
+          background: #6fcf97;
+          color: #fff;
+          user-select: none;
+          font-weight: 700;
+          font-size: 14px;
+          justify-content: center;
+          align-items: center;
+          letter-spacing: 0.03em;
+          height: 38px;
+          line-height: 38px;
+          padding: 0 25px;
+          min-width: 145px;
+          text-decoration: none;
+          transition: all 0.2s;
+          border: none;
+          cursor: pointer;
+          outline: none;
+        }
+
+        &-title {
+          display: block;
+          font-size: 14px;
+          letter-spacing: 0.03em;
+          font-weight: 700;
+          color: #a7b0c2;
+          margin-bottom: 8px;
+        }
+      }
+      &__jobtitle {
+        background: #fff;
+        padding: 12px 16px;
+        width: 320px;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        transition: all 0.2s;
+        outline: none;
+        border: 1px solid #e5e5e5;
+      }
+    }
   }
 }
