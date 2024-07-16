@@ -1,7 +1,7 @@
 import Footer from "../Footer/Footer";
 import Header from "../header/header";
 
-function Layout({ children }: any) {
+function Layout({ children }: unknown) {
   return (
     <>
       <Header />
