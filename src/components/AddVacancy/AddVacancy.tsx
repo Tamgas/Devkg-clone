@@ -4,12 +4,12 @@ import SideBarAddVacancy from "../SidebarAddVacancy/SideBarAddVacancy";
 import "./Addvacancy.scss";
 import { useState } from "react";
 function AddVacancy() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [ isModalOpen, setIsModalOpen ] = useState(false);
 
   const handleOk = () => {
     setIsModalOpen(false);
   };
-  const handleCancel = () => {
+  const handleCancel = () => { 
     setIsModalOpen(false);
   };
   return (
