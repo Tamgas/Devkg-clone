@@ -5,12 +5,13 @@ import "./Addvacancy.scss";
 import { useState } from "react";
 function AddVacancy() {
   const [ isModalOpen, setIsModalOpen ] = useState(false);
-  const [name, setName] = useState('name');
 
   const handleOk = () => {
     setIsModalOpen(false);
   };
-  const handleCancel = () => { setIsModalOpen(false);};
+  const handleCancel = () => { 
+    setIsModalOpen(false);
+  };
   return (
     <>
       <SideBarAddVacancy />
